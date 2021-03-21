@@ -1,4 +1,4 @@
-AIRSHIP_VERSION="14.3.0"
+AIRSHIP_VERSION="14.5.0"
 
 Pod::Spec.new do |s|
     s.version                 = AIRSHIP_VERSION
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.homepage                = "https://www.airship.com"
     s.license                 = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
     s.author                  = { "Airship" => "support@airship.com" }
-    s.source                  = { :git => "https://github.com/urbanairship/ios-library.git", :tag => s.version.to_s }
+    s.source                  = { :git => "https://github.com/olx-mena/ios-library.git", :tag => s.version.to_s }
     s.module_name             = "AirshipExtensions"
     s.requires_arc            = true
     s.ios.deployment_target   = "11.0"

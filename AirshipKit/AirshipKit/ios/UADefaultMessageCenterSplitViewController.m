@@ -102,7 +102,7 @@
 }
 
 - (void)setStyle:(UADefaultMessageCenterStyle *)style {
-    _style = style;
+    self.style = style;
     self.listViewController.style = style;
 
     if (self.listNav && self.messageNav) {
